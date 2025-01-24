@@ -4,9 +4,9 @@ root = Tk()
 root.title("Simple Calculator")
 
 e = Entry(root, width=32, borderwidth=4)
-e.grid(row=0, column=0, columnspan=4, padx=10, pady=20)
+e.grid(row=0, column=0,  columnspan=4, padx=30, pady=20)
 
-# Global variables to store the first number and operation
+
 first_number = None
 math_operation = None
 
